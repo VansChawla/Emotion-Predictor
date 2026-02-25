@@ -1,4 +1,12 @@
 import streamlit as st
+
+st.set_page_config(
+    page_title="Emotion AI",
+    page_icon="happy-face.png",
+    layout="centered",
+    initial_sidebar_state="auto" # "auto", "expanded", or "collapsed"
+)
+
 import pickle
 import string
 import nltk
